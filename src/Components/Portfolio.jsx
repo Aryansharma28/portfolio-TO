@@ -32,8 +32,7 @@ const imageAltText = "desktop with books and laptop";
 const projectList = [
   {
     title: "Think with Aryan!",
-    description:
-      "Check out my blog to know more about me and my life!",
+    description: "Check out my blog to know more about me and my life!",
     url: "https://thinkwitharyanblog.wordpress.com/",
   },
   {
@@ -64,7 +63,12 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover",animation: "fadein 2s" }}
+            style={{
+              height: "90%",
+              width: "100%",
+              objectFit: "cover",
+              animation: "1s ease-out 5s 1 slideInLeft",
+            }}
             alt={imageAltText}
           />
         </div>

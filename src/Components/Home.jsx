@@ -33,7 +33,12 @@ const Home = ({ name, title }) => {
         <h2>{title}</h2>
       </div>
       <div style={{ position: "absolute", bottom: "3rem", left: "50%" }}>
-        <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
+        <img
+          src={arrowSvg}
+          /* add the bounce animation to the arrow */
+          style={{ height: "3rem", width: "3rem", animation: "bounce 1s infinite" }}
+          alt={imageAltText}
+        />
       </div>
     </section>
   );
