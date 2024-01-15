@@ -25,7 +25,7 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Aryan Sharma",
-  title: "Web Designer & Content Creator",
+  title: "Computer Science Student",
   email: "aryansharma2k2@gmail.com",
   gitHub: "https://github.com/Aryansharma28",
   instagram: "instagram.com/unofficialaryan",
